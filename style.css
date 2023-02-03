@@ -1,0 +1,96 @@
+body {
+    background-color: ivory;
+    margin: 2% 6%;
+}
+
+header {
+    background-color: rgba(29, 29, 29, 0.91);
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+h1 {
+    text-align: center;
+    background-color: ivory;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: double;
+    color: black;
+}
+
+
+
+
+
+div.userworkout {
+    background-color: rgb(215, 222, 228);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1%;
+}
+
+
+h2 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.862);
+    color: aliceblue;
+    outline: auto;
+    outline-style: auto;
+    outline-color: rgba(0, 174, 255, 0.922);
+}
+
+form {
+    margin-left: 1%;
+}
+
+button {
+    margin-left: 6%;
+}
+
+ul.work {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+div.Workout_choices {
+    margin-right: 70%;
+    margin-left: 5%;
+    background-color: rgba(212, 212, 212, 0.527);
+    padding-bottom: 1%;
+    outline: auto;
+    outline-style: auto;
+    outline-color: black;
+}
+
+h3 {
+    text-align: left;
+    background-color: rgba(0, 170, 255, 0.729);
+    text-indent: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: auto;
+    outline-style: auto;
+    outline-color: black;
+}
+
+ul.choices{
+    text-indent: 2%;
+}
+
+h4#name {
+    padding-top: 4%;
+}
+
+h5 {
+    margin: 2px;
+}
+
+p {    
+    margin: 2px;
+}
+

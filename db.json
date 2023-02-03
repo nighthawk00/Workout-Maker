@@ -1,0 +1,39 @@
+{
+ "Workouts": 
+    {
+        "id":"arms",
+        "name": "Push-ups",
+        "sets": "5",
+        "reps": "20",
+        "resttimebetweensets": "10 seconds"
+    },
+    {
+        "id":"chest",
+        "name": "Bench Press",
+        "sets": "5",
+        "reps": "4",
+        "resttimebetweensets": "15 seconds"
+    },
+    {
+        "id":"core",
+        "name": "Leg Raise",
+        "sets": "5",
+        "reps": "15",
+        "resttimebetweensets": "40 seconds"
+     },
+     {
+        "id":"back",
+        "name": "Lat Pull-down",
+        "sets": "5",
+        "reps": "30",
+        "resttimebetweensets": "20 seconds"
+     }
+    ,
+     {
+        "id":"legs",
+        "name": "Single leg Squat",
+        "sets": "5",
+        "reps": "10",
+        "resttimebetweensets": "30 seconds"
+    }
+}

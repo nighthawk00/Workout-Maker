@@ -45,7 +45,6 @@ function removeWork(e) {
     e.target.parentNode.remove()
 }
 
-
 function mousoveralert() {
     let h3 = document.createElement('h3')
     h3.textContent='Exercise Ideas:'
@@ -58,9 +57,7 @@ function mousoveralert() {
 function initialize(){
     submitEventListener()
     mousoveralert()
-    getWorkouts()
-    
-    
+    getWorkouts() 
 }
 initialize()
 

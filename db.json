@@ -5,35 +5,35 @@
       "name": "Push-ups",
       "sets": "4",
       "reps": "25",
-      "resttimebetweensets": "10 seconds"
+      "resttime": "10 seconds"
     },
     {
       "id": "abs",
       "name": "Sit-ups",
       "sets": "5",
       "reps": "20",
-      "resttimebetweensets": "15 seconds"
+      "resttime": "15 seconds"
     },
     {
       "id": "core",
       "name": "Leg Raise",
       "sets": "5",
       "reps": "35",
-      "resttimebetweensets": "40 seconds"
+      "resttime": "40 seconds"
     },
     {
       "id": "back",
       "name": "Superman",
       "sets": "5",
       "reps": "30",
-      "resttimebetweensets": "20 seconds"
+      "resttime": "20 seconds"
     },
     {
       "id": "legs",
       "name": "Single leg Squat",
       "sets": "5",
       "reps": "10",
-      "resttimebetweensets": "30 seconds"
+      "resttime": "30 seconds"
     }
   ]
 }

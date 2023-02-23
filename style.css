@@ -1,5 +1,5 @@
 body {
-    background-color: ivory;
+    background-color: #b8b8b8;
     margin: 2% 6%;
 }
 
@@ -7,6 +7,9 @@ header {
     background-color: rgba(29, 29, 29, 0.91);
     padding-top: 15px;
     padding-bottom: 1px;
+    outline: auto;
+    outline-style: auto;
+    outline-color: #000000;
 }
 
 h1 {
@@ -18,14 +21,20 @@ h1 {
 }
 
 
-
+:root {
+    --primary-color: #f8f8eb;
+    --secondary-color: #2b2929;
+}
 
 
 div.userworkout {
-    background-color: rgb(215, 222, 228);
+    background-color: ivory;
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 1%;
+    outline: auto;
+    outline-style: auto;
+    outline-color: #000000;
 }
 
 
@@ -60,7 +69,7 @@ ul.work {
 div.Workout_choices {
     margin-right: 70%;
     margin-left: 5%;
-    background-color: rgba(212, 212, 212, 0.527);
+    background-color: ivory;
     padding-bottom: 1%;
     outline: auto;
     outline-style: auto;
@@ -75,7 +84,7 @@ h3 {
     padding-bottom: 5px;
     outline: auto;
     outline-style: auto;
-    outline-color: black;
+    outline-color: #000000;
 }
 
 ul.choices{

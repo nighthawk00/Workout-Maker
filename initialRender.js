@@ -1,8 +1,16 @@
+function getWorkouts() {
+    fetch('http://localhost:3000/Workouts')
+   
+    .then(function(res) {
+        return res.json()
+    })
+    
+    .then(workouts => workouts.forEach(workout => makeListItem(workout))
+    )
+}   
 
-
-//making list of workouts to render on DOM
 function makeListItem(workout){
-    //making workout list item to append to worklist
+    
     let listItem = document.createElement('ul')
     listItem.id = workout.id
     listItem.className = 'choices'
@@ -14,23 +22,12 @@ function makeListItem(workout){
     document.querySelector('.Workout_choices').appendChild(listItem)
 }
 
-//fetch request for workout data 
-function getWorkouts() {
-    fetch('http://localhost:3000/Workouts')
-    //converting json data 
-    .then(function(res) {
-        return res.json()
+function submitEventListener() {
+    document.querySelector('form').addEventListener('submit', (e) => {
+        e.preventDefault()
+        addToList(e.target.typedWork.value)
     })
-    //using data to create workout cards
-    .then(workouts => workouts.forEach(workout => makeListItem(workout))
-    )
-}   
-
-//make form and submit events here 
-document.querySelector('form').addEventListener('submit', (e) => {
-    e.preventDefault()
-    addToList(e.target.typedWork.value)
-})
+}
 
 function addToList(work) {
     let ul = document.createElement('ul')
@@ -38,6 +35,7 @@ function addToList(work) {
     let btn = document.createElement('button')
     btn.addEventListener('click', removeWork)
     btn.textContent = 'x'
+    btn.className = 'delete'
     ul.textContent = `- ${work}  `
     ul.appendChild(btn)
     document.querySelector('.workList').appendChild(ul)
@@ -47,8 +45,22 @@ function removeWork(e) {
     e.target.parentNode.remove()
 }
 
+
+function mousoveralert() {
+    let h3 = document.createElement('h3')
+    h3.textContent='Exercise Ideas:'
+    h3.addEventListener('mouseover', function alertMessage() {
+        alert('Workouts are just for reference, do what works for you!')
+    })
+    document.querySelector('.Workout_choices').appendChild(h3)
+}
+
 function initialize(){
+    submitEventListener()
+    mousoveralert()
     getWorkouts()
+    
+    
 }
 initialize()
 

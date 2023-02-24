@@ -17,7 +17,7 @@ function makeListItem(workout){
     listItem.innerHTML = `
         <h4>${workout.name}</h4>
         <p>-${workout.sets} sets of ${workout.reps}</p>
-        <p>Rest Time: ${workout.resttimebetweensets}</p>
+        <p>Rest Time: ${workout.resttime}</p>
     `
     document.querySelector('.Workout_choices').appendChild(listItem)
 }

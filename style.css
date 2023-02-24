@@ -20,12 +20,10 @@ h1 {
     color: black;
 }
 
-
 :root {
     --primary-color: #f8f8eb;
     --secondary-color: #2b2929;
 }
-
 
 div.userworkout {
     background-color: ivory;
@@ -61,10 +59,6 @@ ul.work {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-
-
-
 
 div.Workout_choices {
     margin-right: 70%;
